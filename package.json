@@ -1,0 +1,33 @@
+{
+  "name": "winning-habits",
+  "version": "1.0.0",
+  "description": "Summit Team Training Portal - Internal website for financial licensing, team culture, and customer development resources",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server .",
+    "build": "echo 'No build process needed for static site'",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "training",
+    "internal",
+    "summit",
+    "team",
+    "financial",
+    "licensing",
+    "culture",
+    "customer-development"
+  ],
+  "author": "Summit Team",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "internal/summit-team/winning-habits"
+  },
+  "homepage": "./index.html"
+}
